@@ -17,10 +17,13 @@ justify-content:space-around;
     justify-content: center
 }
 
+.jst-end{
+    justify-content: end;
+}
+
 .al-cntr {
     align-items:center
 }
-
 
 .header-container {
     background-color: rgb(49,97,224);
@@ -51,6 +54,11 @@ justify-content:space-around;
 .nav-container {
     background-color: blue;
     min-height: 50px;
- 
+    margin: 0 auto;
+}
 
-
+.button-style {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
