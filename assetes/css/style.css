@@ -165,3 +165,8 @@ justify-content:space-around;
 .slots-height {
     min-height: 200px;
 }
+
+.lightblu {
+    background-color: rgb(72, 116, 238);
+
+}
