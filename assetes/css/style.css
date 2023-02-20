@@ -183,11 +183,11 @@ justify-content:space-around;
 }
 
 .listwidth-small {
-    width:(100%3);
+    width:calc(100% / 2);
 }
  
 .listwidth-big {
-    width: calc(100%3);
+    width: calc(100% / 3);
 }
 
 .txt-blu {
