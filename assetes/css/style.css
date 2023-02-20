@@ -9,12 +9,48 @@
     display: flex;
 }
 
+.jst-spbtwn {
+justify-content:space-around;
+}
+
+.jst-cntr {
+    justify-content: center
+}
+
+.al-cntr {
+    align-items:center
+}
+
+
 .header-container {
     background-color: rgb(49,97,224);
     min-height: 400px ;
+    padding-top: 10px;
+}
+
+.width-20 {
+    width: 20%
 }
 
 .width-80{
     width: 80%;
 }
+
+.width-60{
+    width: 60%;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.brd-yell{
+    border: 1px yellow dashed;
+}
+
+.nav-container {
+    background-color: blue;
+    min-height: 50px;
+ 
+
 
