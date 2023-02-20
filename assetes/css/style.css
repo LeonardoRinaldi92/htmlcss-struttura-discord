@@ -155,11 +155,11 @@ justify-content:space-around;
 }
 
 .empty-slot1 {
-    background-color: black ;
+    background-color: rgb(228, 106, 106) ;
 }
 
 .empty-slot2 {
-    background-color: darkslategrey;
+    background-color: rgb(168, 192, 59);
 }
 
 .slots-height {
@@ -168,5 +168,8 @@ justify-content:space-around;
 
 .lightblu {
     background-color: rgb(72, 116, 238);
+}
 
+.darkgrey {
+    background-color: rgb(27, 27, 27);
 }
