@@ -5,34 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-struttura-discord</title>
+    <style>
+       <style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
+        </style>
     <link rel="stylesheet" href="./assetes/css/style.css">
 </head>
 <body>
     <header>
-        <section class="header-container">
-            <nav class="width-80 nav-container flex ">
+        <!-- headercontainer -->
+        <section class="header-container ">
+            <!-- navcontainer per flex -->
+            <nav class="width-80 nav-container flex jst-cntr mrg0auto">
                     <!-- boxperlogo -->
                     <div class="logo width-20 brd-yell"></div>
                     <!-- central-nav -->
                     <div class="width-60 brd-yell flex jst-cntr al-cntr">
                         <!-- box per lista -->
                         <section class="width-100">
-                            <ul class="list-box flex jst-spbtwn">
-                                <li>Scarica</li>
-                                <li>Perchè Discord</li>
-                                <li>Nitro</li>
-                                <li>Siscurezza</li>
-                                <li>Assistenza</li>
+                            <ul class="list-box flex jst-spbtwn txt-white">
+                                <li><strong>Scarica</strong></li>
+                                <li><strong>Perchè Discord</strong></li>
+                                <li><strong>Nitro</strong></li>
+                                <li><strong>Siscurezza</strong></li>
+                                <li><strong>Assistenza</strong></li>
                             </ul>
                         </section>
-                    
                     </div>
                     <!-- accedi-button -->
-                    <div class="accedi-button width-20 brd-yell"></div>
+                    <div class="flex width-20 brd-yell jst-end al-cntr">   
+                        <button class="button-style"><strong>Accedi</strong>
+                        </button>    
+                    </div>
             </nav>
-            <div>
-
-            </div>
+            <!-- testi top container -->
+            <div class="width-40 brd-yell mrg0auto padd-top60 padd-bott60">
+                <!-- container titolo -->
+                <div class=" gap50  txt-white txt-centre flex flx-cloumn jst-spcaround">
+                    <h1 class="font60">Il tuo posto per parlare
+                    </h1>
+                    <p class="font30 ">Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                    </p> 
+                    <!-- bottoni  -->
+                    <div class="flex jst-cntr gap10">
+                        <div><button class="button-style font20 "><strong>&#8659; Scarica per Mac</strong></button>
+                        </div>
+                        <div><button class="button-style font20 button-black txt-white"><strong>Apri Discord nel tuo Browser</strong></button>
+                        </div>
+                    </div>
+                </div>
+            </div>   
         </section>
     </header>
 </body>

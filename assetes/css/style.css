@@ -3,6 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    font-family: 'Poppins', sans-serif;
+
 }
 
 .flex {
@@ -11,6 +13,10 @@
 
 .jst-spbtwn {
 justify-content:space-around;
+}
+
+.jst-spcaround {
+    justify-content: space-between;
 }
 
 .jst-cntr {
@@ -25,14 +31,42 @@ justify-content:space-around;
     align-items:center
 }
 
+.flx-cloumn {
+    flex-direction: column;
+}
+
 .header-container {
     background-color: rgb(49,97,224);
-    min-height: 400px ;
-    padding-top: 10px;
+    min-height: 500px ;
+    padding-top: 20px;
+}
+
+.txt-white{
+    color: white;
+}
+
+.txt-centre {
+    text-align: center;
+}
+
+.font60 {
+    font-size: 50px;
+}
+
+.font30{
+    font-size: 25px;
+}
+
+.font20{
+    font-size: 20px;
 }
 
 .width-20 {
     width: 20%
+}
+
+.width-40{
+    width: 40%;
 }
 
 .width-80{
@@ -47,18 +81,47 @@ justify-content:space-around;
     width: 100%;
 }
 
+.mrgbot-40 {
+    margin-bottom: 40px;
+}
+.mrgbot-60{
+    margin-bottom: 60px;
+}
+
+.mrg0auto {
+    margin: 0 auto;
+}
+
+.padd-top60 {
+    padding-top: 100px;
+}
+
+.padd-bott60  {
+    padding-bottom: 100px;
+}
+
 .brd-yell{
     border: 1px yellow dashed;
 }
 
 .nav-container {
-    background-color: blue;
     min-height: 50px;
-    margin: 0 auto;
 }
 
 .button-style {
     border: 0;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.gap10{
+    gap: 20px;
+}
+
+.gap50 {
+    gap: 50px;
+}
+
+.button-black {
+    background-color: black;
 }
